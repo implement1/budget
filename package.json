@@ -1,0 +1,30 @@
+{
+  "name": "budgets_application",
+  "version": "1.0.0",
+  "description": "Expenses",
+  "main": "index.js",
+  "author": "mkk",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "development": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-hot-loader": "^4.12.20",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "helmet": "^3.22.0",
+    "mongoose": "^5.9.7"
+
+  }
+}
