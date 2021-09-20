@@ -1,0 +1,6 @@
+dependencies:
+- name: mongodb
+  alias: budget-db
+  repository:  https://charts.bitnami.com/bitnami
+  condition: db.enabled
+

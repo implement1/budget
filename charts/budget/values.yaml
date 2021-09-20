@@ -133,3 +133,7 @@ jxRequirements:
       secretName: ""
 
 
+budget-db:
+  replicaSet:
+    enabled: true
+
